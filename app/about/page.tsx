@@ -41,7 +41,7 @@ export default function AboutPage() {
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue mb-3">About Us</p>
           <h1 className="text-5xl md:text-6xl font-black text-charcoal mb-4 leading-tight">We live for the moment<br />after the meeting.</h1>
           <p className="text-slate max-w-xl mx-auto leading-relaxed">
-            Frame &amp; Co. was built to give corporate events something they have always been missing — a reason to actually enjoy the party.
+            Frame &amp; Co. was built to give corporate events something they have always been missing: a reason to actually enjoy the party.
           </p>
         </FadeIn>
       </section>
@@ -60,7 +60,7 @@ export default function AboutPage() {
           <FadeIn direction="right">
             <div className="relative rounded-2xl overflow-hidden border border-border shadow-lg aspect-[4/3]">
               <Image
-                src={`${UNSPLASH}1527192491265-7e15c55b1ed2?w=800&h=600&fit=crop&q=80`}
+                src={`${UNSPLASH}1558008258-3256797b43f3?w=800&h=600&fit=crop&q=80`}
                 alt="Team at work"
                 fill
                 className="object-cover"
