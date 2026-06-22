@@ -147,10 +147,10 @@ export default function HomePage() {
       </section>
 
       {/* Features */}
-      <section className="py-24 px-6 bg-blue text-white">
+      <section className="py-24 px-6 bg-charcoal text-white">
         <div className="max-w-6xl mx-auto">
           <FadeIn className="mb-14">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/40 mb-3">Why Frame &amp; Co.</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue mb-3">Why Frame &amp; Co.</p>
             <h2 className="text-4xl md:text-5xl font-bold leading-tight">
               Professional from<br />start to finish.
             </h2>
@@ -171,7 +171,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA */}
-      <section className="py-24 px-6 bg-white border-t border-border text-center">
+      <section className="py-24 px-6 bg-surface border-t border-border text-center">
         <FadeIn>
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue mb-4">Ready to Book?</p>
           <h2 className="text-4xl md:text-5xl font-bold text-charcoal mb-6 leading-tight">
