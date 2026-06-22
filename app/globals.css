@@ -8,15 +8,15 @@
   --color-charcoal: #131720;
   --color-slate: #4A5165;
   --color-muted: #8D939F;
-  --color-blue: #1C3557;
-  --color-blue-dark: #122440;
-  --color-blue-light: #EDF0F5;
-  --font-sans: var(--font-ibm-plex-sans);
+  --color-blue: #2558B8;
+  --color-blue-dark: #1D448F;
+  --color-blue-light: #EDF1FA;
+  --font-sans: var(--font-outfit);
 }
 
 body {
   background: #FFFFFF;
   color: #131720;
-  font-family: var(--font-ibm-plex-sans), "IBM Plex Sans", system-ui, sans-serif;
+  font-family: var(--font-outfit), Outfit, system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
