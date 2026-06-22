@@ -39,20 +39,20 @@ const useCases = [
 
 const features = [
   {
-    heading: "Up in under 30 minutes",
-    body: "Our team handles setup, breakdown, and troubleshooting. You focus on the event.",
+    heading: "Your logo on every print",
+    body: "Every physical strip and digital file carries your brand — logo, colors, tagline, event name. Guests leave with a branded keepsake, not a generic photo.",
   },
   {
-    heading: "Fully branded prints",
-    body: "Every photo strip carries your logo, colors, and event name. No generic booths.",
+    heading: "Pixel-perfect brand matching",
+    body: "We work from your brand guidelines and produce a custom overlay before the event. Approve it in advance or we keep refining until it is right.",
   },
   {
     heading: "Digital gallery same day",
-    body: "All photos delivered to a shareable link before your guests leave the room.",
+    body: "All photos delivered to a shareable branded link before your guests leave the room.",
   },
   {
-    heading: "Stationary and roaming options",
-    body: "Open-air booth with backdrop, enclosed booth, or a roaming attendant. Your call.",
+    heading: "Up in under 30 minutes",
+    body: "Our team handles setup, breakdown, and troubleshooting. You focus on the event.",
   },
 ];
 
@@ -147,21 +147,21 @@ export default function HomePage() {
       </section>
 
       {/* Features */}
-      <section className="py-24 px-6 bg-charcoal text-white">
+      <section className="py-24 px-6 bg-surface border-t border-border">
         <div className="max-w-6xl mx-auto">
           <FadeIn className="mb-14">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue mb-3">Why Frame &amp; Co.</p>
-            <h2 className="text-4xl md:text-5xl font-bold leading-tight">
+            <h2 className="text-4xl md:text-5xl font-bold text-charcoal leading-tight">
               Professional from<br />start to finish.
             </h2>
           </FadeIn>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {features.map(({ heading, body }, i) => (
               <FadeIn key={heading} delay={i * 80}>
-                <div className="flex gap-5 items-start border-t border-white/10 pt-6">
+                <div className="flex gap-5 items-start border-t border-border pt-6">
                   <div>
-                    <h3 className="font-semibold text-white mb-1.5">{heading}</h3>
-                    <p className="text-sm text-white/50 leading-relaxed">{body}</p>
+                    <h3 className="font-semibold text-charcoal mb-1.5">{heading}</h3>
+                    <p className="text-sm text-slate leading-relaxed">{body}</p>
                   </div>
                 </div>
               </FadeIn>

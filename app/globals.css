@@ -11,12 +11,12 @@
   --color-blue: #2558B8;
   --color-blue-dark: #1D448F;
   --color-blue-light: #EDF1FA;
-  --font-sans: var(--font-plus-jakarta);
+  --font-sans: var(--font-outfit);
 }
 
 body {
   background: #FFFFFF;
   color: #131720;
-  font-family: var(--font-plus-jakarta), "Plus Jakarta Sans", system-ui, sans-serif;
+  font-family: var(--font-outfit), Outfit, system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
